@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import CustomEmojiPicker from './CustomEmojiPicker'
-import { EmojiData } from 'emoji-mart';
+import { Emoji, EmojiData } from 'emoji-mart';
 
 const App: React.FC = () => {
 
@@ -15,7 +15,7 @@ const App: React.FC = () => {
 
       <header className="App-header">
         <CustomEmojiPicker addEmoji={addEmoji}/>
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="App-logo" ><Emoji emoji=':santa::skin-tone-3:' size={64} /></div>
       </header>
     </div>
   );
