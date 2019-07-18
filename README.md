@@ -4,8 +4,8 @@ A game for meetups to involve people, this would have many people selecting at l
 # Components
 
 
-# 1. garden-server-display
-## 🌱🐰 emoji-garden by [Monica Dinculescu](https://twitter.com/notwaldorf)
+# 1. garden-server-display forked from:
+## 🌱🐰 [emoji-garden](https://emoji-garden.glitch.me/) by [Monica Dinculescu](https://twitter.com/notwaldorf)
 
 Generates a random emoji garden. Built with [tracery.js](https://github.com/galaxykate/tracery).
 
