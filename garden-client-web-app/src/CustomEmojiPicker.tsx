@@ -1,6 +1,6 @@
 import 'emoji-mart/css/emoji-mart.css'
 import { Picker, EmojiData } from 'emoji-mart'
-import React, { ReactPropTypes } from 'react';
+import React from 'react';
 
 type EmojiPickerProps = {
     addEmoji: (emojiData: EmojiData) => void
