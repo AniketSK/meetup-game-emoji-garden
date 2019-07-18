@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <CustomEmojiPicker addEmoji={addEmoji}/>
-        <div className="App-logo" ><Emoji emoji={emoji} size={64} /></div>
+        <div className="Emoji-logo" ><Emoji emoji={emoji} size={64} /></div>
       </header>
     </div>
   );
