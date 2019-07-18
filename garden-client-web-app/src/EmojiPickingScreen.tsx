@@ -5,7 +5,11 @@ import { Emoji, EmojiData } from 'emoji-mart';
 
 const defaultEmoji = ":female-technologist::skin-tone-4:"
 
-const EmojiPickingScreen: React.FC = () => {
+type EmojiPickingScreenTypes = {
+    path: string
+}
+
+const EmojiPickingScreen: React.FC<EmojiPickingScreenTypes> = () => {
   const [emoji, setEmoji] = React.useState<string>(defaultEmoji)
 
   const showSelectedEmoji = (emojiData : EmojiData) => setEmoji(emojiData.colons || defaultEmoji)

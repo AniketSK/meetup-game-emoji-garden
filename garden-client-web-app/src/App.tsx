@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import EmojiPickingScreen from './EmojiPickingScreen'
+import EmojiPickingScreen from './EmojiPickingScreen';
+import { Router, Link } from "@reach/router";
 
 const App: React.FC = () => {
 
   return (
-    <EmojiPickingScreen />
+    <Router>
+      <EmojiPickingScreen path="/"/>
+    </Router>
   );
 }
 
