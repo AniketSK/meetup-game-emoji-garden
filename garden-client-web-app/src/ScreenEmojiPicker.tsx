@@ -1,16 +1,16 @@
 import React, { Props } from 'react';
-import './EmojiPickingScreen.css';
+import './ScreenEmojiPicker.css';
 import CustomEmojiPicker from './CustomEmojiPicker'
 import { Emoji, EmojiData } from 'emoji-mart';
 import { navigate } from "@reach/router"
 import AppChrome from './AppChrome'
 
-type EmojiPickingScreenTypes = {
+type ScreenEmojiPickingTypes = {
     path: string
 }
 const defaultEmoji = ":female-technologist::skin-tone-4:"
 
-const EmojiPickingScreen: React.FC<EmojiPickingScreenTypes> = () => {
+const ScreenEmojiPick: React.FC<ScreenEmojiPickingTypes> = () => {
   const [emoji, setEmoji] = React.useState<string>(defaultEmoji)
 
   const showSelectedEmoji = (emojiData : EmojiData) => setEmoji(emojiData.colons || defaultEmoji)
@@ -33,4 +33,4 @@ const EmojiPickingScreen: React.FC<EmojiPickingScreenTypes> = () => {
   );
 }
 
-export default EmojiPickingScreen;
+export default ScreenEmojiPick;
