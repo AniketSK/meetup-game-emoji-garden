@@ -8,7 +8,7 @@ type ScreenEmojiPlacerTypes = {
 const ScreenEmojiPlacer: React.FC<ScreenEmojiPlacerTypes> = ({emojiId}) => {
     return (
         <div>
-            Hello, it is I! {decodeURIComponent(emojiId || "missing emoji")}
+            Hello, it is I! {decodeURIComponent(emojiId || "yep crash cause of a missing emoji")}
         </div>
     )
 }
