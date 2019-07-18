@@ -1,15 +1,15 @@
-import 'emoji-mart/css/emoji-mart.css'
-import { Picker, EmojiData } from 'emoji-mart'
-import React from 'react';
+import "emoji-mart/css/emoji-mart.css";
+import { Picker, EmojiData } from "emoji-mart";
+import React from "react";
 
 type EmojiPickerProps = {
-    addEmoji: (emojiData: EmojiData) => void
-}
+  addEmoji: (emojiData: EmojiData) => void;
+};
 
-const CustomEmojiPicker: React.FC<EmojiPickerProps> = ({addEmoji}) => {
-return(
-        <Picker title='Pick your emoji…' emoji='point_up' onSelect={addEmoji}/>
-    )
-}
+const CustomEmojiPicker: React.FC<EmojiPickerProps> = ({ addEmoji }) => {
+  return (
+    <Picker title="Pick your emoji…" emoji="point_up" onSelect={addEmoji} />
+  );
+};
 
-export default CustomEmojiPicker
+export default CustomEmojiPicker;
