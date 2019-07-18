@@ -1530,6 +1530,13 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/emoji-mart@^2.8.4":
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/@types/emoji-mart/-/emoji-mart-2.8.4.tgz#a7935eb3260edf9cbb9d9c4d1470f256bcddb45c"
+  integrity sha512-C3J+8nwZxAkgb06+835suFCutyFyz3G4aUFGMlJTvl0ANmE8hj8HUfL92GXNRkJspw+8ciXB6OuwscFFPA56iA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -3798,6 +3805,13 @@ elliptic@^6.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
+
+emoji-mart@^2.11.1:
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/emoji-mart/-/emoji-mart-2.11.1.tgz#fc9330b513803c17b98c9ad289c12ab61ff05f8f"
+  integrity sha512-Hr4N56YEkaPtmojO2dfgnMLLE/d5HpnhH0+M8cw9LRHpG2EgQQaCelRad3d5qQAPHI5+K0wMc/rwM0eRo0FnUA==
+  dependencies:
+    prop-types "^15.6.0"
 
 emoji-regex@^7.0.1, emoji-regex@^7.0.2:
   version "7.0.3"
@@ -8138,7 +8152,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.6.2:
+prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8344,7 +8358,7 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -8429,7 +8443,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
