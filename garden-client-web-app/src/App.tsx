@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import CustomEmojiPicker from './CustomEmojiPicker'
 import { Emoji, EmojiData } from 'emoji-mart';
