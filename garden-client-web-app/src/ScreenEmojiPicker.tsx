@@ -27,9 +27,9 @@ const ScreenEmojiPick: React.FC<ScreenEmojiPickingTypes> = () => {
     }
 
   return (
-      <AppChrome screenTitle="Pick Your Emoji!" submitClicked={submitClicked} submitText="That's me"
-      midContent={picker}
-        />
+      <AppChrome screenTitle="Pick Your Emoji!" submitClicked={submitClicked} submitText="That's me">
+        {picker}
+        </AppChrome>
   );
 }
 

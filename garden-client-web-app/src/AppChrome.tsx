@@ -5,15 +5,15 @@ type AppChromeTypes = {
     screenTitle: string
     submitClicked : Function
     submitText : string
-    midContent : React.FC
+    children: any
 }
 
-const AppChrome: React.FC<AppChromeTypes> = ({screenTitle, submitClicked, submitText, midContent}) => {
+const AppChrome: React.FC<AppChromeTypes> = ({screenTitle, submitClicked, submitText, children}) => {
 return (
     <div className="App">
       <div className="App-title">{screenTitle}</div>
       <header className="App-header">
-          {midContent({})}
+          {children()}
       </header>
       <div className="Button-container">
         <button className="Button-footer" onClick={() => submitClicked()}>{submitText}</button>

@@ -18,7 +18,9 @@ const ScreenEmojiPlacer: React.FC<ScreenEmojiPlacerTypes> = ({emojiId}) => {
     return (
         <div>
             <AppChrome screenTitle="Place it in the garden :)" submitClicked={submitClicked} submitText="Place it!"
-            midContent={picker} />
+             >
+                 {picker}
+                 </AppChrome>
         </div>
     )
 }
