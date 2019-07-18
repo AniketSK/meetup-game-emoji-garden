@@ -5,9 +5,11 @@
 }
 
 .App-title {
-  height: 10vh;
-  font-size: calc(10px + 2vmin);
+  min-height: 15vh;
+  padding-top: 20px;
+  font-size: calc(50px + 2vmin);
   color: whitesmoke;
+  font-family: 'Alegreya', serif bold;
   text-align: center;
 }
 
@@ -18,7 +20,7 @@
 
 .App-header {
   display: flex;
-  height: 80vh;
+  height: 73vh;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -34,6 +36,7 @@
 .Button-footer {
   height: 10vh;
   width: 100%;
+  color: whitesmoke;
   font-family: 'Alegreya', serif bold;
   font-size: calc(19px + 2vmin);
   background-color: #7b1fa2;
