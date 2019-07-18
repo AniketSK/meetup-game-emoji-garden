@@ -14,12 +14,12 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <CustomEmojiPicker addEmoji={showSelectedEmoji}/>
-        <div className="Emoji-logo" >
+        <div className="Emoji-logo">
           <Emoji emoji={emoji} size={64} />
         </div>
       </header>
       <div className="Button-container">
-        <button className="Button-footer">That's me!</button>
+        <button className="Button-footer">That's Me!</button>
       </div>
     </div>
   );
